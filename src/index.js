@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   btnMore.addEventListener('click', btnMoreClick)
 
   if (document.documentElement.clientWidth <= 768) {
-    headerTitle.textContent = 'Skype'
+    headerTitle.textContent = 'Zoom'
 
     hide.forEach(el => (el.style.display = 'none'))
 
