@@ -1,4 +1,5 @@
 import './scss/index.scss'
+import './components/lazyLoad/lazy.logic'
 import './components/slider/slider'
 import './components/like/like.logic'
 import './components/navbar/navbar.logic'
