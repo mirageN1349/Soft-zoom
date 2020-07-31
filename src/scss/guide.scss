@@ -44,3 +44,35 @@
     margin-bottom: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .guide {
+    &-wrap {
+      background: transparent;
+      border-radius: 0;
+      padding: 0;
+      box-shadow: none;
+      font-size: 14px;
+      img {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+    &-registration,
+    &-password,
+    &-conference,
+    &-identification,
+    &-voice {
+      &__title {
+        font-size: 16px;
+      }
+      &__desc {
+        margin-left: 0;
+      }
+    }
+    &-title {
+      font-size: 19px;
+      margin-bottom: 15px;
+    }
+  }
+}
